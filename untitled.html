@@ -8,6 +8,7 @@
 			項目編號： SCP-北方棲姬  	
 		</header>
 		<img src="下載.jpeg">
+		<img src="UfHz6uM.gif">
 		<section>
 			項目分類： Euclid
 		</section>
@@ -47,21 +48,23 @@
 				<td>DD</td>
 		
 	
-	<form>
+	<form method="post" action="http://www.meigic.tw/test.php" enctype="multipart/form-data">
 	<div>
-		<label>Nickname:</label>
-		<input name="Nickname" type="text" />
+		<label for="Nickname">Nickname:</label>
+		<input id="Nickname" name="Nickname" type="text" placeholder="請輸入暱稱 owo"/>
 		</div>
 
 		<div>
-		<label>Email:</label>
-		<input name="Email"type="text" />
-		</div>
-
-		
+		<label for="email">Email:</label>
+		<input id="email" name="Email"type="text" placeholder="請輸入email owo"/>
+		</div>		
 		<div>
 		<label>Password:</label>
-		<input name="Password" type="text" /><button>Sign up</button>
+		<input name="Password" type="text" placeholder="請輸入密碼 owo"/><button>Sign up</button>
+		</div>
+		<div>
+		<label>Password:</label>
+		<input name="pic_file" type="file" /><button>pic</button>
 		</div>
 	</form>
 	
